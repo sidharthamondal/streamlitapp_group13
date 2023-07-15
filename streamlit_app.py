@@ -55,7 +55,7 @@ col1, col2 = st.columns([1, 3])
 
 # Left panel - Model capabilities
 with col1:
-    st.image("image.png", use_column_width=True)
+    st.image("Images/image.png", use_column_width=True)
     st.title("Model Capabilities")
     st.write("This model can predict the following:")
     st.write(class_labels)
